@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD942E0A1AA1947A00F4DD9A"
                BuildableName = "Brick Breakout.app"
-               BlueprintName = "Brick Breakout"
-               ReferencedContainer = "container:Brick Breakout.xcodeproj">
+               BlueprintName = "Paddle Bounce"
+               ReferencedContainer = "container:Paddle Bounce.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD942E231AA1947B00F4DD9A"
-               BuildableName = "Brick BreakoutTests.xctest"
-               BlueprintName = "Brick BreakoutTests"
-               ReferencedContainer = "container:Brick Breakout.xcodeproj">
+               BuildableName = "Paddle BounceTests.xctest"
+               BlueprintName = "Paddle BounceTests"
+               ReferencedContainer = "container:Paddle Bounce.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD942E231AA1947B00F4DD9A"
-               BuildableName = "Brick BreakoutTests.xctest"
-               BlueprintName = "Brick BreakoutTests"
-               ReferencedContainer = "container:Brick Breakout.xcodeproj">
+               BuildableName = "Paddle BounceTests.xctest"
+               BlueprintName = "Paddle BounceTests"
+               ReferencedContainer = "container:Paddle Bounce.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD942E0A1AA1947A00F4DD9A"
             BuildableName = "Brick Breakout.app"
-            BlueprintName = "Brick Breakout"
-            ReferencedContainer = "container:Brick Breakout.xcodeproj">
+            BlueprintName = "Paddle Bounce"
+            ReferencedContainer = "container:Paddle Bounce.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD942E0A1AA1947A00F4DD9A"
             BuildableName = "Brick Breakout.app"
-            BlueprintName = "Brick Breakout"
-            ReferencedContainer = "container:Brick Breakout.xcodeproj">
+            BlueprintName = "Paddle Bounce"
+            ReferencedContainer = "container:Paddle Bounce.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,8 +95,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD942E0A1AA1947A00F4DD9A"
             BuildableName = "Brick Breakout.app"
-            BlueprintName = "Brick Breakout"
-            ReferencedContainer = "container:Brick Breakout.xcodeproj">
+            BlueprintName = "Paddle Bounce"
+            ReferencedContainer = "container:Paddle Bounce.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

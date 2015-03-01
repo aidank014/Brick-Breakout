@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Brick Breakout.xcodeproj">
+      location = "self:Paddle Bounce.xcodeproj">
    </FileRef>
 </Workspace>

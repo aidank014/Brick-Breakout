@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD147B801AA2E0ED002D727E /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD147B7F1AA2E0ED002D727E /* GameOverScene.sks */; };
+		BD147B821AA2E108002D727E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147B811AA2E108002D727E /* GameOverScene.swift */; };
 		BD942E111AA1947B00F4DD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD942E101AA1947B00F4DD9A /* AppDelegate.swift */; };
 		BD942E131AA1947B00F4DD9A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD942E121AA1947B00F4DD9A /* GameScene.sks */; };
 		BD942E151AA1947B00F4DD9A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD942E141AA1947B00F4DD9A /* GameScene.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD147B7F1AA2E0ED002D727E /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		BD147B811AA2E108002D727E /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		BD942E0B1AA1947B00F4DD9A /* Brick Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brick Breakout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD942E0F1AA1947B00F4DD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD942E101AA1947B00F4DD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +41,7 @@
 		BD942E191AA1947B00F4DD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD942E1B1AA1947B00F4DD9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD942E1E1AA1947B00F4DD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BD942E241AA1947B00F4DD9A /* Brick BreakoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick BreakoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD942E241AA1947B00F4DD9A /* Paddle BounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paddle BounceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD942E291AA1947B00F4DD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD942E2A1AA1947B00F4DD9A /* Brick_BreakoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_BreakoutTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				BD942E0B1AA1947B00F4DD9A /* Brick Breakout.app */,
-				BD942E241AA1947B00F4DD9A /* Brick BreakoutTests.xctest */,
+				BD942E241AA1947B00F4DD9A /* Paddle BounceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +88,8 @@
 				BD942E101AA1947B00F4DD9A /* AppDelegate.swift */,
 				BD942E121AA1947B00F4DD9A /* GameScene.sks */,
 				BD942E141AA1947B00F4DD9A /* GameScene.swift */,
+				BD147B7F1AA2E0ED002D727E /* GameOverScene.sks */,
+				BD147B811AA2E108002D727E /* GameOverScene.swift */,
 				BD942E161AA1947B00F4DD9A /* GameViewController.swift */,
 				BD942E181AA1947B00F4DD9A /* Main.storyboard */,
 				BD942E1B1AA1947B00F4DD9A /* Images.xcassets */,
@@ -121,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD942E0A1AA1947A00F4DD9A /* Brick Breakout */ = {
+		BD942E0A1AA1947A00F4DD9A /* Paddle Bounce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD942E2E1AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Brick Breakout" */;
+			buildConfigurationList = BD942E2E1AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Paddle Bounce" */;
 			buildPhases = (
 				BD942E071AA1947A00F4DD9A /* Sources */,
 				BD942E081AA1947A00F4DD9A /* Frameworks */,
@@ -133,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = "Brick Breakout";
+			name = "Paddle Bounce";
 			productName = "Brick Breakout";
 			productReference = BD942E0B1AA1947B00F4DD9A /* Brick Breakout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD942E231AA1947B00F4DD9A /* Brick BreakoutTests */ = {
+		BD942E231AA1947B00F4DD9A /* Paddle BounceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD942E311AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Brick BreakoutTests" */;
+			buildConfigurationList = BD942E311AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Paddle BounceTests" */;
 			buildPhases = (
 				BD942E201AA1947B00F4DD9A /* Sources */,
 				BD942E211AA1947B00F4DD9A /* Frameworks */,
@@ -151,9 +157,9 @@
 			dependencies = (
 				BD942E261AA1947B00F4DD9A /* PBXTargetDependency */,
 			);
-			name = "Brick BreakoutTests";
+			name = "Paddle BounceTests";
 			productName = "Brick BreakoutTests";
-			productReference = BD942E241AA1947B00F4DD9A /* Brick BreakoutTests.xctest */;
+			productReference = BD942E241AA1947B00F4DD9A /* Paddle BounceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD942E061AA1947A00F4DD9A /* Build configuration list for PBXProject "Brick Breakout" */;
+			buildConfigurationList = BD942E061AA1947A00F4DD9A /* Build configuration list for PBXProject "Paddle Bounce" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -187,8 +193,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD942E0A1AA1947A00F4DD9A /* Brick Breakout */,
-				BD942E231AA1947B00F4DD9A /* Brick BreakoutTests */,
+				BD942E0A1AA1947A00F4DD9A /* Paddle Bounce */,
+				BD942E231AA1947B00F4DD9A /* Paddle BounceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +207,7 @@
 				BD942E1F1AA1947B00F4DD9A /* LaunchScreen.xib in Resources */,
 				BD942E1C1AA1947B00F4DD9A /* Images.xcassets in Resources */,
 				BD942E131AA1947B00F4DD9A /* GameScene.sks in Resources */,
+				BD147B801AA2E0ED002D727E /* GameOverScene.sks in Resources */,
 				BD942E1A1AA1947B00F4DD9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +229,7 @@
 				BD942E151AA1947B00F4DD9A /* GameScene.swift in Sources */,
 				BD942E171AA1947B00F4DD9A /* GameViewController.swift in Sources */,
 				BD942E111AA1947B00F4DD9A /* AppDelegate.swift in Sources */,
+				BD147B821AA2E108002D727E /* GameOverScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +246,7 @@
 /* Begin PBXTargetDependency section */
 		BD942E261AA1947B00F4DD9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD942E0A1AA1947A00F4DD9A /* Brick Breakout */;
+			target = BD942E0A1AA1947A00F4DD9A /* Paddle Bounce */;
 			targetProxy = BD942E251AA1947B00F4DD9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -348,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Brick Breakout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Brick Breakout";
 			};
 			name = Debug;
 		};
@@ -358,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Brick Breakout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Brick Breakout";
 			};
 			name = Release;
 		};
@@ -376,7 +384,7 @@
 				);
 				INFOPLIST_FILE = "Brick BreakoutTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Paddle BounceTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Breakout.app/Brick Breakout";
 			};
 			name = Debug;
@@ -391,7 +399,7 @@
 				);
 				INFOPLIST_FILE = "Brick BreakoutTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Paddle BounceTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Breakout.app/Brick Breakout";
 			};
 			name = Release;
@@ -399,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD942E061AA1947A00F4DD9A /* Build configuration list for PBXProject "Brick Breakout" */ = {
+		BD942E061AA1947A00F4DD9A /* Build configuration list for PBXProject "Paddle Bounce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD942E2C1AA1947B00F4DD9A /* Debug */,
@@ -408,21 +416,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD942E2E1AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Brick Breakout" */ = {
+		BD942E2E1AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Paddle Bounce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD942E2F1AA1947B00F4DD9A /* Debug */,
 				BD942E301AA1947B00F4DD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BD942E311AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Brick BreakoutTests" */ = {
+		BD942E311AA1947B00F4DD9A /* Build configuration list for PBXNativeTarget "Paddle BounceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD942E321AA1947B00F4DD9A /* Debug */,
 				BD942E331AA1947B00F4DD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
